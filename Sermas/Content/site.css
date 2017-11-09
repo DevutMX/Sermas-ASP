@@ -1,0 +1,29 @@
+﻿body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url('../imagenes/fondo.jpg');
+    background-repeat: repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 10px 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #cccccc;
+}
+
+.navbar img {
+    height: 100%;
+    width: 8%;
+}
+
+.cbp-af-header-shrink {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    opacity: 0.9;
+}
